@@ -1,0 +1,252 @@
+@font-face {
+    font-family: 'roxborough_cfmedium';
+    src: url('../../font/roxboroughcf-medium-webfont.woff') format('woff'),
+         url('../../font/roxboroughcf-medium-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
+body {
+    background-color: #282828;
+    overflow: hidden;
+    cursor: none;
+}
+
+
+h1#logobook {
+    font-family: 'roxborough_cfmedium';
+    color: #dac9ba;
+}
+
+
+#back:hover {
+    opacity: 0;
+}
+
+#backhover:hover {
+    opacity: 1;
+}
+
+
+#mobilever:hover {
+    transform: translateX(-5px);
+    transition-duration: 0.2s;
+}
+
+#textbook {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #dac9ba;
+}
+
+
+  @media (max-width: 767px) {
+
+ 
+    
+
+  }
+
+
+@media (device-width: 768px) and (device-height: 1024px){
+
+   
+
+}
+ 
+  
+  @media (min-width: 769px) {
+
+    h1#logobook  {
+        font-size: 100px;
+        margin-left: 2%;
+        margin-top: 2%;
+        }
+    
+        #textbook {
+            margin-top: 70px;
+        }
+    
+        #mobilever {
+            margin-left: 95%;
+            width: 10%;
+            margin-top: 0%;
+        }
+    
+        #back{
+            width: 1.2%;
+            margin-top: -18%;
+            margin-left: 5%;
+        }
+    
+        #backhover {
+            width: 1.2%;
+            margin-top: -18%;
+            margin-left: -1.5%;
+            opacity: 0;
+        }
+    
+        #canvas {
+            margin: -450px auto;
+        }
+
+  }
+  
+    @media (min-width: 1600px)  {
+
+
+        h1#logobook  {
+            font-size: 100px;
+            margin-left: 2%;
+            margin-top: 2%;
+            }
+        
+            #textbook {
+                margin-top: 70px;
+            }
+        
+            #mobilever {
+                margin-left: 95%;
+                width: 10%;
+                margin-top: 0%;
+            }
+        
+            #back{
+                width: 1.2%;
+                margin-top: -18%;
+                margin-left: 5%;
+                right: 90%;
+            }
+        
+            #backhover {
+                width: 1.2%;
+                margin-top: -18%;
+                margin-left: -1.4%;
+                opacity: 0;
+                right: 90%;
+            }
+        
+            #canvas {
+                margin: -450px auto;
+            }
+    }
+
+  @media (min-width: 1800px)  {
+ 
+    h1#logobook  {
+        font-size: 100px;
+        margin-left: 2%;
+        margin-top: 2%;
+        }
+    
+        #textbook {
+            margin-top: 70px;
+        }
+    
+        #mobilever {
+            margin-left: 95%;
+            width: 10%;
+            margin-top: -5%;
+        }
+    
+        #back{
+            width: 1.2%;
+            margin-top: -15%;
+            margin-left: 5%;
+        }
+    
+        #backhover {
+            width: 1.2%;
+            margin-top: -15%;
+            margin-left: -1.4%;
+            opacity: 0;
+        }
+    
+        #canvas {
+            margin: -350px auto;
+        }
+  
+}
+
+  @media (min-width: 1900px) {
+      
+  
+    h1#logobook  {
+        font-size: 100px;
+        margin-left: 2%;
+        margin-top: 2%;
+        }
+    
+        #textbook {
+            margin-top: 70px;
+        }
+    
+        #mobilever {
+            margin-left: 95%;
+            width: 10%;
+            margin-top: -3%;
+        }
+    
+        #back{
+            width: 1.2%;
+            margin-top: -18%;
+            margin-left: 5%;
+        }
+    
+        #backhover {
+            width: 1.2%;
+            margin-top: -18%;
+            margin-left: -1.4%;
+            opacity: 0;
+        }
+    
+        #canvas {
+            margin: -400px auto;
+        }
+   
+  }
+
+
+  
+
+/* cursor */
+
+
+.circle-cursor {
+    position: fixed;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    border-radius: 50%;
+  }
+  .circle-cursor--outer {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(247, 241, 241);
+    z-index: 12000;
+    opacity: 0.5;
+  }
+  .circle-cursor--inner {
+    width: 5px;
+    height: 5px;
+    left: -2.5px;
+    top: -2.5px;
+    z-index: 11000;
+    background: rgb(255, 255, 255);
+  }
+  
+  a:hover {
+      cursor: none;
+  }
+
+  #backtohome {
+      width: 50px;
+      height: 50px;
+  }
